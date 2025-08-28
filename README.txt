@@ -29,7 +29,13 @@ Instructions for installation and setup
 Download the CritterScribeApp.exe, ZooDashApp.exe, PawCache.sql, sampleuseraccounts.sql and Sample_ZooFlow_setup.bat and keep the last three in same folder. (you may download all the files and keep them together too). Now run the installer setup file and enter your root password. It'll close on its own and your setup is done !
 
 In case you get some error after putting the root password in setup, or if setup runs successfully but the apps don't run, follow the below steps-
-- search and open 'edit the system environment variables' settings on your windows (or similar setting for other operating systems)
+
+- go to your MySQL command line and confirm if you are putting the correct password and it is working.
+
+- if you are sure you are putting correct password but it still doesn't enter, open 'MySQL Installer - Community' on your system and reconfigure MySQL server.
+- follow the steps, enter your root password when needed and after it finishes, your MySQL will work fine again. If it rejects your password there, then your password is incorrect. You might need to remember it or reinstall MySQL.
+
+- If password is not an issue, then search and open 'edit the system environment variables' settings on your windows (or similar setting for other operating systems)
 - select environment variables, then select 'Path' variable in the list and click edit.
 - check if there is a path to bin directory of MySQL (example- C:\Program Files\MySQL\MySQL Server 8.0\bin). If not, locate the bin folder in your system (it could be in different drive or sequence of directories or could be same as the example) and add the path.
 - Apply all the settings and close the dialogues, refresh your system and try running the installer setup file once more.
@@ -48,3 +54,4 @@ Project details and purpose can also be read on info page in CritterScribe and Z
 Developed by Khushil Varshney
 
 Thanks for checking out my project.
+
