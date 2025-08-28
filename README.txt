@@ -26,8 +26,15 @@ This ZooFlow Project Folder contains-
 
 Instructions for installation and setup
 
-Download the CritterScribeApp.exe, ZooDashApp.exe, PawCache.sql, sampleuseraccounts.sql and Sample_ZooFlow_setup.bat and keep the last three in same folder. (you may download all the files and keep them together too). Now run the setup file and enter your root password. It'll close on its own and your setup is done !
-The apps (CritterscribeApp and ZooDashApp) should run properly once the installer has been run successfully first. In case of any errors, contact the developers. Now you can use the Apps on sample database.
+Download the CritterScribeApp.exe, ZooDashApp.exe, PawCache.sql, sampleuseraccounts.sql and Sample_ZooFlow_setup.bat and keep the last three in same folder. (you may download all the files and keep them together too). Now run the installer setup file and enter your root password. It'll close on its own and your setup is done !
+
+In case you get some error after putting the root password in setup, or if setup runs successfully but the apps don't run, follow the below steps-
+- search and open 'edit the system environment variables' settings on your windows (or similar setting for other operating systems)
+- select environment variables, then select 'Path' variable in the list and click edit.
+- check if there is a path to bin directory of MySQL (example- C:\Program Files\MySQL\MySQL Server 8.0\bin). If not, locate the bin folder in your system (it could be in different drive or sequence of directories or could be same as the example) and add the path.
+- Apply all the settings and close the dialogues, refresh your system and try running the installer setup file once more.
+
+The apps (CritterscribeApp and ZooDashApp) should run properly once the installer setup file has been run successfully first. In case of any other errors, contact the developer. Now you can use the apps on a sample database.
 If you have made any changes and want to reset the pawcache data, run the installer again and all the user and pawcache data will be reset. Note that the additional users (if made using add staff option of ZooDash) may not get dropped from your MySQL even if the staff_dat table is reset. So you'll have to manually drop the user if required. 
 
 Below are some inbuilt sample logins for all four login types
@@ -38,7 +45,6 @@ Below are some inbuilt sample logins for all four login types
 
 Project details and purpose can also be read on info page in CritterScribe and ZooDash Apps. This is a sample Zoo Management system made on python and MySQL. This is an original project work made for class 12th CBSE Computer Science (083) Project work. Project is based on an average of system of common zoos in India and not according to any one zoo. All the data present in the databases are sample and fictional, and are not taken from any sources.
 
-<this file (as well as the ZooDash App) will be updated after the project file is made, so if you are reading this line, you came in too early, and that's good, you got to see this rare line that no one else will see ever after update. Everyone who tests and tries to run this, we'll appreciate if you give reviews, suggestions or report if any bugs are found.>
-
 Developed by Khushil Varshney
-Thanks for Reading.
+
+Thanks for checking out my project.
