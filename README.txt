@@ -49,9 +49,10 @@ Below are some inbuilt sample logins for all four login types
 3. username- nishat	password- nisha	login for zoodash as Nisha Tiwari who is zoo manager
 4. username- mikee	password- mike	login for zoodash as Mike Elipson who is zoo admin
 
-Project details and purpose can also be read on info page in CritterScribe and ZooDash Apps. This is a sample Zoo Management system made on python and MySQL. This is an original project work made for class 12th CBSE Computer Science (083) Project work. Project is based on an average of system of common zoos in India and not according to any one zoo. All the data present in the databases are sample and fictional, and are not taken from any sources.
+Project details and purpose can also be read on info page in CritterScribe and ZooDash Apps. This is a sample Zoo Management system made on python and MySQL. This is an original work made for class 12th CBSE Computer Science (083) Project. Project is based on an average of system of common zoos in India and not according to any one zoo. All the data present in the databases are sample and fictional, and are not taken from any sources.
 
 Developed by Khushil Varshney
 
 Thanks for checking out my project.
+
 
